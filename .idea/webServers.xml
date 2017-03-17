@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ce24a9a7-338e-4e5f-8be4-1cb03e4fca6d" name="APT_REPO" url="http://ubuntu@ec2-54-152-43-4.compute-1.amazonaws.com">
+        <fileTransfer host="ubuntu@ec2-54-152-43-4.compute-1.amazonaws.com" port="22" privateKey="D:\My_Projects\23-Allen\credentials(Kaa)\apt_sys.ppk" rootFolder="/home/ubuntu" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
